@@ -1,3 +1,8 @@
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -35,4 +40,47 @@ a{
     font-size: 1rem;
     padding: 10px;
 
+}
+
+/* section 2 */
+.inf{
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.inf h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.inf p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.inf a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+/* animations / utilities */
+.inf a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.first a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
 }
