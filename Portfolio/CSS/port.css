@@ -9,10 +9,11 @@
 body{
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #111;
 }
 
 header{
-    background-color: black;
+    background-color: darkmagenta;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -20,7 +21,7 @@ header{
 }
 
 header h1{
-    color: red;
+    color:  darkgoldenrod;
     font-size: 2.5rem;
 }
 
